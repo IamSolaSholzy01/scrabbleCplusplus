@@ -1,12 +1,6 @@
 #include <iostream>
-#include <cmath>
+#include <algorithm>
 using namespace std;
-int max(int a, int b) {
-    // This is a helper function
-    // Input: Two integers to be compared
-    // Output: The highest response from the inputs
-    return (a > b) ? a : b;
-}
 
 int maximum(int *numbers, int length) {
     int max_num = 0;
