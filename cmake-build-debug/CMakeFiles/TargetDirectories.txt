@@ -1,0 +1,3 @@
+/Users/jamesbond/CLionProjects/scrabble_demo/cmake-build-debug/CMakeFiles/scrabble_demo.dir
+/Users/jamesbond/CLionProjects/scrabble_demo/cmake-build-debug/CMakeFiles/edit_cache.dir
+/Users/jamesbond/CLionProjects/scrabble_demo/cmake-build-debug/CMakeFiles/rebuild_cache.dir
