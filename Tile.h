@@ -1,11 +1,11 @@
 //
 // Created by james bond on 9/2/22.
 //
+#ifndef SCRABBLE_DEMO_TILE_H
+#define SCRABBLE_DEMO_TILE_H
 #include <string>
 #include <map>
 #include <utility>
-#ifndef SCRABBLE_DEMO_TILE_H
-#define SCRABBLE_DEMO_TILE_H
 
 using namespace std;
 
