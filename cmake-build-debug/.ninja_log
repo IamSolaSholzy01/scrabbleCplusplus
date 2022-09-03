@@ -1,21 +1,8 @@
 # ninja log v5
-2	1250	1662112916329924471	CMakeFiles/scrabble_demo.dir/main.cpp.o	d79dfbcd111d6240
-1250	1315	1662112916398917323	scrabble_demo	83f140c035719c98
-3	2130	1662117893619820577	CMakeFiles/scrabble_demo.dir/main.cpp.o	d79dfbcd111d6240
-8	2231	1662117893726918986	CMakeFiles/scrabble_demo.dir/Tile.cpp.o	43099a4b7a40bc99
-2	1472	1662117990765671942	CMakeFiles/scrabble_demo.dir/Tile.cpp.o	43099a4b7a40bc99
-2	1478	1662117990773410688	CMakeFiles/scrabble_demo.dir/main.cpp.o	d79dfbcd111d6240
-3	1644	1662118001492028601	CMakeFiles/scrabble_demo.dir/Tile.cpp.o	43099a4b7a40bc99
-1645	1753	1662118001600922309	scrabble_demo	30c15f3274bb3ec5
-2	1105	1662118044681539658	CMakeFiles/scrabble_demo.dir/main.cpp.o	d79dfbcd111d6240
-1106	1177	1662118044759407828	scrabble_demo	30c15f3274bb3ec5
-2	2801	1662119400558349440	CMakeFiles/scrabble_demo.dir/main.cpp.o	d79dfbcd111d6240
-2	1347	1662119499424025330	CMakeFiles/scrabble_demo.dir/main.cpp.o	d79dfbcd111d6240
-2	1038	1662119549331727823	CMakeFiles/scrabble_demo.dir/main.cpp.o	d79dfbcd111d6240
-2	1126	1662119616904843292	CMakeFiles/scrabble_demo.dir/main.cpp.o	d79dfbcd111d6240
-1127	1201	1662119616984734954	scrabble_demo	30c15f3274bb3ec5
-2	1236	1662119733140655412	CMakeFiles/scrabble_demo.dir/main.cpp.o	d79dfbcd111d6240
-1236	1319	1662119733229260427	scrabble_demo	30c15f3274bb3ec5
-2	1497	1662232290940876397	CMakeFiles/scrabble_demo.dir/main.cpp.o	d79dfbcd111d6240
 5	1536	1662232290985872578	CMakeFiles/scrabble_demo.dir/Tile.cpp.o	43099a4b7a40bc99
 1536	1633	1662232291087076332	scrabble_demo	30c15f3274bb3ec5
+2	1497	1662232290940876397	CMakeFiles/scrabble_demo.dir/main.cpp.o	d79dfbcd111d6240
+0	126	1662232500600682793	build.ninja	a835af588dfb496f
+2	1133	1662232501739573389	CMakeFiles/scrabble_demo.dir/main.cpp.o	d79dfbcd111d6240
+2	1211	1662232501816825968	CMakeFiles/scrabble_demo.dir/src/Objects/Tile/Tile.cpp.o	8a796200338296a1
+1211	1283	1662232501894104986	scrabble_demo	ba89cedffc0eaa34

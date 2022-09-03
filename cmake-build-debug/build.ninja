@@ -52,11 +52,11 @@ build CMakeFiles/scrabble_demo.dir/main.cpp.o: CXX_COMPILER__scrabble_demo_Debug
   OBJECT_DIR = CMakeFiles/scrabble_demo.dir
   OBJECT_FILE_DIR = CMakeFiles/scrabble_demo.dir
 
-build CMakeFiles/scrabble_demo.dir/Tile.cpp.o: CXX_COMPILER__scrabble_demo_Debug /Users/jamesbond/CLionProjects/scrabble_demo/Tile.cpp || cmake_object_order_depends_target_scrabble_demo
-  DEP_FILE = CMakeFiles/scrabble_demo.dir/Tile.cpp.o.d
+build CMakeFiles/scrabble_demo.dir/src/Objects/Tile/Tile.cpp.o: CXX_COMPILER__scrabble_demo_Debug /Users/jamesbond/CLionProjects/scrabble_demo/src/Objects/Tile/Tile.cpp || cmake_object_order_depends_target_scrabble_demo
+  DEP_FILE = CMakeFiles/scrabble_demo.dir/src/Objects/Tile/Tile.cpp.o.d
   FLAGS = -g -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX12.3.sdk -std=gnu++2b
   OBJECT_DIR = CMakeFiles/scrabble_demo.dir
-  OBJECT_FILE_DIR = CMakeFiles/scrabble_demo.dir
+  OBJECT_FILE_DIR = CMakeFiles/scrabble_demo.dir/src/Objects/Tile
 
 
 # =============================================================================
@@ -66,7 +66,7 @@ build CMakeFiles/scrabble_demo.dir/Tile.cpp.o: CXX_COMPILER__scrabble_demo_Debug
 #############################################
 # Link the executable scrabble_demo
 
-build scrabble_demo: CXX_EXECUTABLE_LINKER__scrabble_demo_Debug CMakeFiles/scrabble_demo.dir/main.cpp.o CMakeFiles/scrabble_demo.dir/Tile.cpp.o
+build scrabble_demo: CXX_EXECUTABLE_LINKER__scrabble_demo_Debug CMakeFiles/scrabble_demo.dir/main.cpp.o CMakeFiles/scrabble_demo.dir/src/Objects/Tile/Tile.cpp.o
   FLAGS = -g -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX12.3.sdk
   OBJECT_DIR = CMakeFiles/scrabble_demo.dir
   POST_BUILD = :

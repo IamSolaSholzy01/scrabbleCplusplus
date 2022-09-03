@@ -1,6 +1,6 @@
 #include <iostream>
 #include <algorithm>
-#include "Tile.h"
+#include "Objects/Tile/Tile.h"
 
 int run() {
     Tile A, B('B'), C('C'), D('D');
