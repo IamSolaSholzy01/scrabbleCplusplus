@@ -5,6 +5,7 @@
 int run() {
     Tile A, B('B'), C('C'), D('D');
     std::cout << B.get_value() << D.get_value() << endl;
+    std::cout << Tile::get_count() << endl;
     return 0;
 }
 using namespace std;
@@ -39,12 +40,14 @@ int binary_search(const int *list, int target, int size) {
     return -1;
 }
 
+int BaseTile::count = 0;
+
 int main() {
     int numbers[4] = {1, 2, 3, 5};
-    cout << "Hello, World! Welcome to this take on the popular scrabble game." << endl;
-    cout << maximum(numbers, sizeof(numbers) / sizeof(int)) << endl;
-    cout << linear_search(numbers, 3,  sizeof(numbers) / sizeof(int)) << endl;
-    cout << binary_search(numbers, 3,  sizeof(numbers) / sizeof(int)) << endl;
+//    cout << "Hello, World! Welcome to this take on the popular scrabble game." << endl;
+//    cout << maximum(numbers, sizeof(numbers) / sizeof(int)) << endl;
+//    cout << linear_search(numbers, 3,  sizeof(numbers) / sizeof(int)) << endl;
+//    cout << binary_search(numbers, 3,  sizeof(numbers) / sizeof(int)) << endl;
     run();
     return 0;
 }

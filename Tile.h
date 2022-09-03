@@ -13,6 +13,7 @@ using namespace std;
 
 class BaseTile {
 private:
+    static int count;
     void set_value(int v) {
         this->value = v;
     }
@@ -22,33 +23,17 @@ protected:
     int value;
     map<char, int> letters;
 public:
-    BaseTile() {
-        this->letter = '\0';
-        this->value = 0;
-        letters = {{'D', 1}};
-    }
-
-    [[nodiscard]] char get_letter() const {
-        return this->letter;
-    }
-    void set_letter(char l) {
-        this->letter = l;
-    }
-    [[nodiscard]] int get_value() const {
-        return this->value;
-    }
+    BaseTile();
+    static int get_count();
+    [[nodiscard]] char get_letter() const;
+    void set_letter(char l);
+    [[nodiscard]] int get_value() const;
 };
 
 class Tile: public BaseTile {
 public:
-    Tile() {
-        this->letter = '\0';
-        this->value = 0;
-    }
-    explicit Tile(char l) {
-        this->letter = l;
-        this->value = this->letters[this->letter];
-    }
+    Tile();
+    explicit Tile(char l);
 };
 
 #endif //SCRABBLE_DEMO_TILE_H
