@@ -1,11 +1,12 @@
 #include <iostream>
 #include <algorithm>
 #include "Objects/Tile/Tile.h"
+#include "Objects/Bag/Bag.h"
 
 int run() {
-    Tile A, B('B'), C('C'), D('D');
-    std::cout << B.get_value() << D.get_value() << endl;
-    std::cout << Tile::get_count() << endl;
+    Bag A;
+    std::cout << A.get_count_tiles() << endl;
+    std::cout << A.get_tile().get_letter() << endl;
     return 0;
 }
 using namespace std;
