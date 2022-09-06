@@ -5,8 +5,8 @@
 #include "../Tile/Tile.h"
 #include "Bag.h"
 
-int Bag::get_count_tiles() const {
-    return (int) this->tiles.size();
+unsigned long Bag::get_count_tiles() const {
+    return this->tiles.size();
 }
 
 Tile Bag::get_tile() {

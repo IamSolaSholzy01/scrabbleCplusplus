@@ -13,7 +13,7 @@ private:
     vector<Tile> tiles;
 public:
     Bag();
-    [[nodiscard]] int get_count_tiles() const;
+    [[nodiscard]] unsigned long get_count_tiles() const;
     Tile get_tile();
 //    int shuffle_tiles();
 };
