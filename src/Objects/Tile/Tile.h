@@ -21,8 +21,9 @@ private:
 protected:
     char letter;
     int value;
-    map<char, int> letters;
+
 public:
+    static map<char, int> letters;
     BaseTile();
     static int get_count();
     [[nodiscard]] char get_letter() const;
@@ -34,6 +35,7 @@ class Tile: public BaseTile {
 public:
     Tile();
     explicit Tile(char l);
+    void print_tile() const;
 };
 
 #endif //SCRABBLE_DEMO_TILE_H

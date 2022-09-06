@@ -6,10 +6,42 @@
 int run() {
     Bag A;
     std::cout << A.get_count_tiles() << endl;
-    std::cout << A.get_tile().get_letter() << endl;
+    A.get_tile().print_tile();
     return 0;
 }
 using namespace std;
+
+void init_base_tile() {
+    vector<char> one {'D', 'G'};
+    vector<char> two {'A', 'E', 'I', 'L', 'N', 'O', 'R', 'S', 'T', 'U'};
+    vector<char> three {'B', 'C', 'M', 'P'};
+    vector<char> four {'F', 'H', 'V', 'W', 'Y'};
+    vector<char> five {'K'};
+    vector<char> eight {'J', 'X'};
+    vector<char> ten {'Q', 'Z'};
+
+    for (char & j : one) {
+        BaseTile::letters.insert(std::pair<char, int>(j, 1));
+    }
+    for (char & j : two) {
+        BaseTile::letters.insert(std::pair<char, int>(j, 2));
+    }
+    for (char & j : three) {
+        BaseTile::letters.insert(std::pair<char, int>(j, 3));
+    }
+    for (char & j : four) {
+        BaseTile::letters.insert(std::pair<char, int>(j, 4));
+    }
+    for (char & j : five) {
+        BaseTile::letters.insert(std::pair<char, int>(j, 5));
+    }
+    for (char & j : eight) {
+        BaseTile::letters.insert(std::pair<char, int>(j, 8));
+    }
+    for (char & j : ten) {
+        BaseTile::letters.insert(std::pair<char, int>(j, 10));
+    }
+}
 
 int maximum(int *numbers, int length) {
     int max_num = 0;
@@ -40,15 +72,11 @@ int binary_search(const int *list, int target, int size) {
     }
     return -1;
 }
-
 int BaseTile::count = 0;
+map<char, int> BaseTile::letters = {};
 
 int main() {
-    int numbers[4] = {1, 2, 3, 5};
-//    cout << "Hello, World! Welcome to this take on the popular scrabble game." << endl;
-//    cout << maximum(numbers, sizeof(numbers) / sizeof(int)) << endl;
-//    cout << linear_search(numbers, 3,  sizeof(numbers) / sizeof(int)) << endl;
-//    cout << binary_search(numbers, 3,  sizeof(numbers) / sizeof(int)) << endl;
+    init_base_tile();
     run();
     return 0;
 }

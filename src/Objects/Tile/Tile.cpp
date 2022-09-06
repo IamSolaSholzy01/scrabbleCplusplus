@@ -3,11 +3,11 @@
 //
 #include<iostream>
 #include "Tile.h"
+#include <vector>
 
 BaseTile::BaseTile() {
     this->letter = '\0';
     this->value = 0;
-    letters = {{'D', 1}};
     BaseTile::count += 1;
 }
 
@@ -34,5 +34,9 @@ Tile::Tile() {
 
 Tile::Tile(char l) {
     this->letter = l;
-    this->value = this->letters[this->letter];
+    this->value = Tile::letters[this->letter];
+}
+
+void Tile::print_tile() const {
+    std::cout << "Letter: " << this->letter << ' ' << " value: " << this->value << endl;
 }

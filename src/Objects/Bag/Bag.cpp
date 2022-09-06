@@ -14,4 +14,6 @@ Tile Bag::get_tile() {
 }
 Bag::Bag() {
     this->tiles.emplace_back('B');
+    this->tiles.emplace_back('C');
+    this->tiles.emplace_back('D');
 }
