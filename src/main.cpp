@@ -9,6 +9,7 @@ int run() {
     A.get_tile().print_tile();
     A.get_tile().print_tile();
     A.get_tile().print_tile();
+    std::cout << A.get_count_tiles() << endl;
     return 0;
 }
 using namespace std;
@@ -74,6 +75,7 @@ int binary_search(const int *list, int target, int size) {
     }
     return -1;
 }
+
 int BaseTile::count = 0;
 map<char, int> BaseTile::letters = {};
 
