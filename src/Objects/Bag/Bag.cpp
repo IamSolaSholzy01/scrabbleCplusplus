@@ -10,7 +10,9 @@ unsigned long Bag::get_count_tiles() const {
 }
 
 Tile Bag::get_tile() {
-    return this->tiles.back();
+    Tile t = this->tiles.back();
+    this->tiles.pop_back();
+    return t;
 }
 Bag::Bag() {
     this->tiles.emplace_back('B');
