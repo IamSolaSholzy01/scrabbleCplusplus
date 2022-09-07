@@ -5,11 +5,11 @@
 
 int run() {
     Bag A;
-    std::cout << A.get_count_tiles() << endl;
+//    std::cout << A.get_count_tiles() << endl;
     A.get_tile().print_tile();
     A.get_tile().print_tile();
     A.get_tile().print_tile();
-    std::cout << A.get_count_tiles() << endl;
+//    std::cout << A.get_count_tiles() << endl;
     return 0;
 }
 using namespace std;
