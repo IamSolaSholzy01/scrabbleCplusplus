@@ -9,3 +9,7 @@ Tile Rack::get_tile(int index) {
     this->tiles.erase(this->tiles.begin() + (int) index);
     return t;
 }
+
+void Rack::add_tile(Tile t) {
+    this->tiles.emplace_back(t);
+}

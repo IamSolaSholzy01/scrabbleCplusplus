@@ -13,6 +13,7 @@ private:
     vector<Tile> tiles;
 public:
     Tile get_tile(int index);
+    void add_tile(Tile t);
 };
 
 

@@ -9,7 +9,7 @@
 void add_letter(char letter, int count, vector<Tile> &tiles) {
     // Helper function for initializing bag with Tiles in constructor
     for (int i = 0; i < count; ++i) {
-        tiles.emplace_back(letter);
+        tiles.emplace_back((Tile)letter);
     }
 }
 
