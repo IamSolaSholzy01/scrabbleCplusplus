@@ -4,16 +4,18 @@
 #include "Objects/Bag/Bag.h"
 #include "Objects/Rack/Rack.h"
 
+// Todo: Add Dictionary
+// Todo: Search through dictionary
+// Todo: Sort dictionary
+
 int run() {
     Bag A;
     Rack M;
-//    std::cout << A.get_count_tiles() << endl;
     A.get_tile().print_tile();
     A.get_tile().print_tile();
     A.get_tile().print_tile();
     M.add_tile((A.get_tile()));
     M.get_tile(0).print_tile();
-//    std::cout << A.get_count_tiles() << endl;
     return 0;
 }
 using namespace std;
