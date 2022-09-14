@@ -12,8 +12,6 @@ int run() {
     Bag A;
     Rack M;
     A.get_tile().print_tile();
-    A.get_tile().print_tile();
-    A.get_tile().print_tile();
     M.add_tile((A.get_tile()));
     M.get_tile(0).print_tile();
     return 0;
